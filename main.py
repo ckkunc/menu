@@ -19,16 +19,19 @@ def main() -> None:
         
         time.sleep(2)
 
+        # Print the active page's menu, except for redundant stations such as Beverages
         soup = BeautifulSoup(driver.page_source, "html.parser")
         results = soup.find(class_="c-tab is-active")
         menu_stations = results.find_all("div", class_="menu-station")
         print(f"\n{meal:_^60}\n")
         for station in menu_stations:
             station_name = station.find("h4", class_="toggle-menu-station-data")
-            print(f"\n\n{station_name.text.strip()}:\n")
-            menu_items = station.find("ul")
-            for item in menu_items.find_all("li"):
-                print(item.text.strip())
+            station_name = station_name.text.strip()
+            if station_name != "Condiments and Spreads" and station_name != "Beverages" and station_name != "Salad Bar" and station_name != "Cereal" and station_name != "Soup and Salads":
+                print(f"\n\n-{station_name}-\n")
+                menu_items = station.find("ul")
+                for item in menu_items.find_all("li"):
+                    print(item.text.strip())
 
     # Scrape the breakfast data
     scrape("Breakfast", "0")
