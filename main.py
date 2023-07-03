@@ -20,7 +20,7 @@ def main() -> None:
         time.sleep(2)
 
         soup = BeautifulSoup(driver.page_source, "html.parser")
-        results = soup.find(class_="c-tab__content")
+        results = soup.find(class_="c-tab is-active")
         menu_stations = results.find_all("div", class_="menu-station")
         print(f"\n{meal:_^60}\n")
         for station in menu_stations:
