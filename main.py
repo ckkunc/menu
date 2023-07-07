@@ -11,7 +11,7 @@ from twilio.rest import Client
 def main() -> None:
     # Initialize the Chrome driver and navigate to the initial page
     driver = webdriver.Chrome()
-    driver.get("https://dining.unc.edu/locations/chase/?date=2023-07-03")
+    driver.get("https://dining.unc.edu/locations/chase")
 
     # Creating a Twilio client with my account sid and auth token
     account_sid = "account_sid"
@@ -23,11 +23,12 @@ def main() -> None:
         element_present = True
 
         try:
-            # Wait for up to 2 seconds for an <a> element with child div element with text "Breakfast (7am-9am)" to be present
+            # Wait 1 second for the Breakfast button element to be located
             WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[data-tabid='0']")))
         except TimeoutException:
                 element_present = False
 
+        #If Breakfast button exists, then the dining hall is open
         if element_present:
             with open(f"{dining_hall}.txt", f"{write_mode}") as f:
                 button = driver.find_element(By.CSS_SELECTOR, f"a[data-tabid='{tab_id}']")
@@ -49,10 +50,10 @@ def main() -> None:
                         menu_items = station.find("ul")
                         for item in menu_items.find_all("li"):
                             f.write(f"{item.text.strip()}\n")
+        #Else, the dining hall is closed
         else:
             with open(f"{dining_hall}.txt", "w") as f:
                 f.write(f"{dining_hall} is closed today.")
-                print("Success")
 
     # Scrape Chase's breakfast data and write to a .txt file
     scrape("Chase", "Breakfast", "0", "w")
@@ -67,8 +68,8 @@ def main() -> None:
     driver.quit()
 
     # Open the .txt file and read the contents
-    #with open("Chase.txt", "r") as f:
-    #   file_contents = f.read()
+    with open("Chase.txt", "r") as f:
+      file_contents = f.read()
 
     # Send test text message containing the file contents
     #message = client.messages.create(
