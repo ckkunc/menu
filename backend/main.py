@@ -46,7 +46,7 @@ def scrape(dining_hall: str, tab_id: int, write_mode: str) -> None:
 
     #If the first button exists, then the dining hall is open
     if element_present:
-        with open(f"{dining_hall}.txt", f"{write_mode}") as f:
+        with open(f"menus/{dining_hall}.txt", f"{write_mode}") as f:
             # Set the button as the css element with the equal tab_id
             try:
                 button = driver.find_element(By.CSS_SELECTOR, f"a[data-tabid='{tab_id}']")
