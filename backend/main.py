@@ -78,7 +78,7 @@ def scrape(dining_hall: str, tab_id: int, write_mode: str) -> None:
                         f.write(f"{item.text.strip()}\n")
     #Else, the dining hall is closed
     else:
-        with open(f"{dining_hall}.txt", "w") as f:
+        with open(f"menus/{dining_hall}.txt", "w") as f:
             f.write(f"{dining_hall} is closed today.")
 
     # Quit the driver when finished

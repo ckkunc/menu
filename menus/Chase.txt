@@ -1,7 +1,7 @@
 
 
 ------------------------------
-Chase Breakfast  (7am-9am)
+Chase Breakfast (7am-9am)
 ------------------------------
 
 
@@ -10,14 +10,12 @@ Donuts
 Assorted Danishes
 
 -The Kitchen Table-
-Sausage Patty
-French Toast Sticks
-Scrambled Eggs
-Impossible™ Sausage Patty
-Oatmeal
-Just Egg Patty
-Fried Tater Tots
+Sausage Links
+Breakfast Potatoes
 Grits
+Pancakes
+Scrambled Eggs
+French Toast Sticks
 
 
 ------------------------------
@@ -25,43 +23,38 @@ Chase Lunch (11am-2pm)
 ------------------------------
 
 
--Specialty Bakery-
-Lemon Cheesecake Bar
-Yellow Cake with Chocolate Fudge
-
 -Bakery-
 Fudge Brownie
 Rice Krispie Treats
 Cookies
+Yellow Cake with Chocolate Fudge
 
 -Simply Prepared Grill-
-Cajun Chicken Breast
-Potato Hash
-Cajun Pinto Beans
-Collard Greens
+Jerk Chicken
+White Rice
+Steamed Baby Carrots
+Seasoned Black Beans
 
 -The Kitchen Table-
-Crispy Battered Cod
-Coleslaw
-White Rice
-Steamed Green Peas
+Roasted Beef
+Chef Mashed Potatoes
+Steamed Broccoli
+Steamed Corn
 
 -The Griddle-
-Hamburger
+Local Grass-fed Burger Patties
 Shoestring Fries
 Grilled Cheese Sandwich
 Sliced Yellow American Cheese
 
 -Pizza-
-Classic Cheese Pizza
 Classic Pepperoni Pizza
-Vegan Cheese Pizza
+Classic Cheese Pizza
 
 -Pasta-
 Plain Pasta
 Marinara Sauce
 Alfredo Sauce
-Made Without Gluten Pasta
 
 
 ------------------------------
@@ -69,40 +62,36 @@ Chase Dinner (5pm-7pm)
 ------------------------------
 
 
--Specialty Bakery-
-Yellow Cake
-Mini Oreo Cupcake
-
 -Bakery-
 Fudge Brownie
 Rice Krispie Treats
 Cookies
+Yellow Cake
+Chocolate Sheet Cake
 
 -Simply Prepared Grill-
-Ancho Lime Chicken Thigh Bone In
-Simply Roasted Green Chili Corn
-White Rice
-Seasoned Black Beans
+Chimichurri Chicken
+Rice Blend
+Steamed Green Peas
+Roasted Cauliflower
 
 -The Kitchen Table-
-Sweet and Sour Tempura Chicken
-Roasted Asparagus
-Brown Rice
-Seasoned Cauliflower
+Crispy Pollock
+Fried Tater Tots
+Coleslaw
+Roasted Corn
 
 -The Griddle-
-Hamburger
+Local Grass-fed Burger Patties
 Shoestring Fries
 Grilled Cheese Sandwich
 Sliced Yellow American Cheese
 
 -Pizza-
-Classic Cheese Pizza
 Classic Pepperoni Pizza
-Vegan Pepperoni Pizza
+Classic Cheese Pizza
 
 -Pasta-
 Plain Pasta
 Marinara Sauce
 Alfredo Sauce
-Made Without Gluten Pasta
