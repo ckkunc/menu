@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Phone number</th>
+            <th>Actions</th>
+        </tr>
+        {% for phone_number in phone_numbers %}
+        <tr>
+            <td>{{ phone_number.number }}</td>
+            <td>
+                <a href="{% url 'delete_phone_number' phone_number.id %}">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+</body>
+</html>
