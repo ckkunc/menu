@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to the database
-conn = sqlite3.connect('backend\django\db.sqlite3')
+conn = sqlite3.connect('backend/django/db.sqlite3')
 c = conn.cursor()
 
 # Query the database

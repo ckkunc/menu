@@ -1,21 +1,25 @@
 
 
 ------------------------------
-Chase Breakfast (7am-9am)
+Chase Breakfast  (7am-9am)
 ------------------------------
 
 
 -Bakery-
 Donuts
 Assorted Danishes
+Orange Poppy Loaf
+Lemon Loaf
 
 -The Kitchen Table-
-Sausage Links
+Bacon
 Breakfast Potatoes
 Grits
-Pancakes
-Scrambled Eggs
 French Toast Sticks
+Scrambled Eggs
+Impossible™ Sausage Patty
+Oatmeal
+Just Egg Patty
 
 
 ------------------------------
@@ -28,17 +32,18 @@ Fudge Brownie
 Rice Krispie Treats
 Cookies
 Yellow Cake with Chocolate Fudge
+Mini Oreo Cupcake
 
 -Simply Prepared Grill-
-Jerk Chicken
-White Rice
-Steamed Baby Carrots
-Seasoned Black Beans
+Seasoned Chicken Breast
+Corn on the Cob
+Grilled Asparagus
+EVOO Mashed Potatoes
 
 -The Kitchen Table-
-Roasted Beef
-Chef Mashed Potatoes
-Steamed Broccoli
+Seasoned Ground Beef Taco
+Seasoned Black Beans
+White Rice
 Steamed Corn
 
 -The Griddle-
@@ -48,8 +53,8 @@ Grilled Cheese Sandwich
 Sliced Yellow American Cheese
 
 -Pizza-
-Classic Pepperoni Pizza
 Classic Cheese Pizza
+Classic Pepperoni Pizza
 
 -Pasta-
 Plain Pasta
@@ -67,31 +72,33 @@ Fudge Brownie
 Rice Krispie Treats
 Cookies
 Yellow Cake
-Chocolate Sheet Cake
+Yellow Cake with Chocolate Fudge
 
 -Simply Prepared Grill-
-Chimichurri Chicken
-Rice Blend
-Steamed Green Peas
-Roasted Cauliflower
+Creole BBQ Chicken
+Red Beans
+Steamed Whole Green Beans
+White Rice
 
 -The Kitchen Table-
-Crispy Pollock
-Fried Tater Tots
-Coleslaw
-Roasted Corn
+Italian Style Chicken
+Parslied Egg Noodles
+Steamed Baby Carrots
+Steamed Green Peas
 
 -The Griddle-
-Local Grass-fed Burger Patties
+Hamburger
 Shoestring Fries
 Grilled Cheese Sandwich
 Sliced Yellow American Cheese
 
 -Pizza-
-Classic Pepperoni Pizza
 Classic Cheese Pizza
+Classic Pepperoni Pizza
+Vegan Pepperoni Pizza
 
 -Pasta-
 Plain Pasta
 Marinara Sauce
 Alfredo Sauce
+Made Without Gluten Pasta
