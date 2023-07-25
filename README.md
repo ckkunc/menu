@@ -2,6 +2,7 @@
 Send text messages to users containing menus of Chase and Lenoir dining halls
 Utilizes React and Django frameworks
 
+## How to run:
 ### 1: Activate virtual environment:
 venv/Scripts/activate (Windows) 
 source bin/activate (Mac)
@@ -10,8 +11,6 @@ pip install django djangorestframework django-cors-headers
 npm install axios
 ### 3: Run Django project: 
 python manage.py runserver
-http://127.0.0.1:8000/add/ to add phone numbers
-http://127.0.0.1:8000/list/ to view phone numbers
 ### 4: Run React project:
 npm start
 
