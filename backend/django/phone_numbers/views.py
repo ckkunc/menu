@@ -1,7 +1,10 @@
 from django.shortcuts import render, redirect
 from .models import PhoneNumber
+from rest_framework import viewsets
+from .serializers import PhoneNumberSerializer
+from django.http import JsonResponse
 
-# This view handles the submission of the form to add a new phone number
+# Declare view function for handling the submission of the form to add a new phone number
 def add_phone_number(request):
     # Check if the request is a POST request
     if request.method == 'POST':
@@ -16,7 +19,7 @@ def add_phone_number(request):
     # If the request is not a POST request, display the form
     return render(request, 'add_phone_number.html')
 
-# This view displays a list of all saved phone numbers
+# Declare view function for displaying a list of all saved phone numbers
 def list_phone_numbers(request):
     # Get all phone numbers from the database
     phone_numbers = PhoneNumber.objects.all()
@@ -25,7 +28,7 @@ def list_phone_numbers(request):
     # Render the template with the context data
     return render(request, 'list_phone_numbers.html', context)
 
-# This view deletes phone numbers 
+# Declare view function for deleting phone numbers 
 def delete_phone_number(request, phone_number_id):
     # Get the phone number object from the database
     phone_number = PhoneNumber.objects.get(id=phone_number_id)
@@ -33,3 +36,8 @@ def delete_phone_number(request, phone_number_id):
     phone_number.delete()
     # Redirect the user back to the list of phone numbers
     return redirect('list_phone_numbers')
+
+# Declare view class for handling API requests
+class PhoneNumberViewSet(viewsets.ModelViewSet):
+    queryset = PhoneNumber.objects.all()
+    serializer_class = PhoneNumberSerializer

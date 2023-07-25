@@ -26,6 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'phone_numbers',
+    'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -36,6 +38,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+]
+
+# To allow my React app to communicate with my Django app on a different domain
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
 ]
 
 ROOT_URLCONF = 'menu.urls'
