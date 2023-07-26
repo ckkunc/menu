@@ -5,21 +5,25 @@ Chase Breakfast  (7am-9am)
 ------------------------------
 
 
--Bakery-
-Donuts
-Assorted Danishes
+-Specialty Bakery-
 Orange Poppy Loaf
 Lemon Loaf
+Double Chocolate Chip Muffin
+
+-Bakery-
+Croissant
+Donuts
+Assorted Danishes
 
 -The Kitchen Table-
-Bacon
-Breakfast Potatoes
-Grits
-French Toast Sticks
+Sausage Patty
 Scrambled Eggs
 Impossible™ Sausage Patty
 Oatmeal
 Just Egg Patty
+Fried Tater Tots
+Grits
+French Toast Sticks
 
 
 ------------------------------
@@ -27,27 +31,29 @@ Chase Lunch (11am-2pm)
 ------------------------------
 
 
+-Specialty Bakery-
+Chocolate Sheet Cake
+Cinnamon Donut Bites
+
 -Bakery-
 Fudge Brownie
 Rice Krispie Treats
 Cookies
-Yellow Cake with Chocolate Fudge
-Mini Oreo Cupcake
 
 -Simply Prepared Grill-
-Seasoned Chicken Breast
-Corn on the Cob
-Grilled Asparagus
-EVOO Mashed Potatoes
+Chicken Shawarma
+Cauliflower Rice
+Steamed Broccoli
+Honey Glazed Baby Carrots
 
 -The Kitchen Table-
-Seasoned Ground Beef Taco
-Seasoned Black Beans
-White Rice
-Steamed Corn
+Pulled Chicken BBQ
+Vegetarian Baked Beans
+Steamed Whole Green Beans
+Seasoned Cauliflower
 
 -The Griddle-
-Local Grass-fed Burger Patties
+Hamburger
 Shoestring Fries
 Grilled Cheese Sandwich
 Sliced Yellow American Cheese
@@ -55,11 +61,13 @@ Sliced Yellow American Cheese
 -Pizza-
 Classic Cheese Pizza
 Classic Pepperoni Pizza
+Vegan Cheese Pizza
 
 -Pasta-
 Plain Pasta
 Marinara Sauce
 Alfredo Sauce
+Made Without Gluten Pasta
 
 
 ------------------------------
@@ -67,24 +75,26 @@ Chase Dinner (5pm-7pm)
 ------------------------------
 
 
+-Specialty Bakery-
+Yellow Cake
+Yellow Cake with Chocolate Fudge
+
 -Bakery-
 Fudge Brownie
 Rice Krispie Treats
 Cookies
-Yellow Cake
-Yellow Cake with Chocolate Fudge
 
 -Simply Prepared Grill-
-Creole BBQ Chicken
-Red Beans
-Steamed Whole Green Beans
-White Rice
+Mediterranean Beef Roast
+Armenian Roasted Vegetables
+Steamed Broccoli
+Basmati Rice and Lentils
 
 -The Kitchen Table-
-Italian Style Chicken
-Parslied Egg Noodles
-Steamed Baby Carrots
-Steamed Green Peas
+Breaded Chicken Parmesan
+Olive Oil Penne
+Peppers and Onion
+Simply Roasted Zucchini
 
 -The Griddle-
 Hamburger

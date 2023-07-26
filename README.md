@@ -4,12 +4,12 @@ Utilizes React and Django frameworks
 
 ## How to run:
 ### 1: Activate virtual environment:
-venv/Scripts/activate (Windows) 
+venv/Scripts/activate (Windows)
 source bin/activate (Mac)
 ### 2: Install libraries:
 pip install django djangorestframework django-cors-headers    
 npm install axios
-### 3: Run Django project: 
+### 3: Run Django project:
 python manage.py runserver
 ### 4: Run React project:
 npm start
