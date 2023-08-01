@@ -19,3 +19,8 @@ The React application sends an HTTP POST request to the Django application with 
 The Django application uses the Django REST framework to handle the incoming HTTP requests and to serialize and deserialize data between JSON format (used in the HTTP requests and responses) and Python objects (used in the Django code). The PhoneNumberSerializer class is used to validate and deserialize the incoming data, and to serialize the outgoing data. The PhoneNumberViewSet class is used to handle the incoming HTTP requests and to perform the appropriate actions, such as creating a new phone number record in the database.
 
 Superuser PW: 1152
+
+Future:
+Maybe make scrape a sub-function of main, so it doesn't open a new driver 6 times
+Add CSS
+Verify input to be phone number format

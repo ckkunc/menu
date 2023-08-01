@@ -42,6 +42,7 @@ MIDDLEWARE = [
 ]
 
 # To allow my React app to communicate with my Django app on a different domain
+
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
 ]

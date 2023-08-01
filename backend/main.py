@@ -39,7 +39,7 @@ def scrape(dining_hall: str, tab_id: int, write_mode: str) -> None:
     element_present = True
 
     try:
-        # Wait 1 second for the first button element to be located
+        # Wait 0 seconds for the first button element to be located
         WebDriverWait(driver, 0).until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[data-tabid='0']")))
     except TimeoutException:
             element_present = False

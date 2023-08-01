@@ -29,11 +29,15 @@ function PhoneForm() {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        type="tel"
+        type="number"
         value={phoneNumber}
         onChange={(event) => setPhoneNumber(event.target.value)}
+        oninput="formatPhoneNumber(this)"
+        placeholder="(123)456-7890"
       />
-      <button type="submit">Submit</button>
+      <button type="submit">
+        <span>Submit</span>
+      </button>
     </form>
   );
 }
