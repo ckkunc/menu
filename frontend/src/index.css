@@ -9,20 +9,6 @@ h1 {
   position: absolute;
 }
 
-@media (max-width: 1920px) {
-  h1 {
-    top: 27%;
-    left: 13%;
-  }
-}
-
-@media (max-width: 1600px) {
-  h1 {
-    top: 28%;
-    left: 10%;
-  }
-}
-
 h3 {
   font-family: 'Open Sans', sans-serif;
   color: #C4D600;
@@ -30,18 +16,8 @@ h3 {
   position: absolute;
 }
 
-@media (max-width: 1920px) {
-  h3 {
-    top: 45%;
-    left: 13%;
-  }
-}
-
-@media (max-width: 1600px) {
-  h3 {
-    top: 49%;
-    left: 10%;
-  }
+.break-small {
+  display: none;
 }
 
 button {
@@ -58,28 +34,13 @@ button {
   transition: background-color 0.2s;
 }
 
-button:hover{
+button:hover:not(:disabled){
   background: #24618a; 
 }
 
-@media (max-width: 1980px) {
-  button {
-    top: 52%;
-    right: 27%;
-  }
-}
-
-@media (max-width: 1600px) {
-  button {
-    top: 57%;
-    right: 20%;
-  }
-}
-
-@media (max-width: 1200px) {
-  button {
-    align-self: center;
-  }
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
 }
 
 input {
@@ -116,6 +77,21 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 @media (max-width: 1920px) {
+  h1 {
+    top: 27%;
+    left: 13%;
+  }
+
+  h3 {
+    top: 45%;
+    left: 13%;
+  }
+
+  button {
+    top: 52%;
+    right: 27%;
+  }
+
   input {
     top: 35%;
     right: 19%;
@@ -123,9 +99,65 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 @media (max-width: 1600px) {
+  h1 {
+    top: 28%;
+    left: 10%;
+    margin: 0%;
+  }
+
+  h3 {
+    top: 49%;
+    left: 10%;
+  }
+
+  button {
+    top: 57%;
+    right: 20%;
+  }
+
   input {
     top: 40%;
     right: 13%;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    top: 5%;
+    left: 0%;
+    text-align: center;
+    line-height: 1;
+  }
+
+  h3 {
+    top: 30%;
+    left: 0%;
+    text-align: center;
+    margin: 30px 20px;
+  }
+
+  .break {
+    display: none;
+  }
+
+  button {
+    top: 80%;
+    right: 27%;
+  }
+  
+  input {
+    top: 65%;
+    right: 13%;
+    font-size: 20px;
+    height: 5vh;
+    width: 30vh;
+  }
+
+  input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #999;
+    text-align: center;
   }
 }
 
