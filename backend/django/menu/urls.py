@@ -11,5 +11,5 @@ urlpatterns = [
     path('list/', views.list_phone_numbers, name='list_phone_numbers'),
     path('delete/<int:phone_number_id>/', views.delete_phone_number, name='delete_phone_number'),
     path('admin/', admin.site.urls),
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
 ]
