@@ -7,7 +7,7 @@ Utilizes React and Django frameworks
 venv/Scripts/activate (Windows)
 source bin/activate (Mac)
 ### 2: Install libraries:
-pip install django djangorestframework django-cors-headers    
+python -m pip install -r requirements.txt  
 npm install axios
 ### 3: Run Django project:
 python manage.py runserver
