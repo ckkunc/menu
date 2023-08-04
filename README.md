@@ -7,12 +7,14 @@ Utilizes React and Django frameworks
 venv/Scripts/activate (Windows)
 source bin/activate (Mac)
 ### 2: Install libraries:
-python -m pip install -r requirements.txt  
+pip install -r requirements.txt
 npm install axios
 ### 3: Run Django project:
 python manage.py runserver
 ### 4: Run React project:
 npm start
+### 5: Push changes to Heroku
+git subtree push --prefix backend/django heroku master
 
 The React application sends an HTTP POST request to the Django application with the inputted phone number as the request data. The Django application, using a REST API, receives the request and uses the data to create a new phone number record in the database.
 
