@@ -22,3 +22,6 @@
 
 .env
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+venv/
+venv_mac/
