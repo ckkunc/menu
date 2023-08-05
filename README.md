@@ -8,7 +8,7 @@ venv/Scripts/activate (Windows)
 source bin/activate (Mac)
 ### 2: Install libraries:
 pip install -r requirements.txt
-npm install axios
+npm install axios react-scripts
 ### 3: Run Django project:
 python manage.py runserver
 ### 4: Run React project:

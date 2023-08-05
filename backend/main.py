@@ -21,7 +21,7 @@ def main() -> None:
     # should be written since it is the beginning of the data. But data from lunch (id = 1) is simply added 
     # to the existing file. 
     dining_halls = ["Lenoir", "Chase"]
-    button_mode= {"0": "w", "1": "a", "2": "a"}
+    button_mode= {"0": "w", "1": "a", "3": "a"}
     for hall in dining_halls:
         for key in button_mode:
             scrape(hall, key, button_mode[key])
