@@ -48,7 +48,7 @@ function PhoneForm() {
       // Remove any non-digit characters from the phoneNumber state variable
       let unformattedPhoneNumber = phoneNumber.replace(/\D/g, '');
       // Use axios to send a POST request to the /api/phone-numbers/ URL with the unformatted phone number as the request data
-      await axios.post('http://127.0.0.1:8000/api/phone-numbers/', { number: unformattedPhoneNumber });
+      await axios.post('https://unc-menu-d7d49a9c4f36.herokuapp.com/api/phone-numbers/', { number: unformattedPhoneNumber });
       // Clear the phoneNumber state variable
       setPhoneNumber('');
     } catch (error) {
