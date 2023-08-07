@@ -24,5 +24,3 @@ Superuser PW: 1152
 
 Future:
 Maybe make scrape a sub-function of main, so it doesn't open a new driver 6 times
-Add CSS
-Verify input to be phone number format
