@@ -89,12 +89,16 @@ input[type="number"]::-webkit-outer-spin-button {
 
   button {
     top: 50%;
-    right: 23%;
+    right: 20%;
   }
 
   input {
     top: 33%;
-    right: 15%;
+    right: 12%;
+    font-size: 20px;
+  }
+
+  input::placeholder {
     font-size: 20px;
   }
 }
@@ -177,10 +181,7 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   input::placeholder {
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: #999;
-    text-align: center;
   }
 }
 
