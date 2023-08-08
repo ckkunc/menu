@@ -78,7 +78,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 @media (min-width: 3024px) {
   h1 {
-    top: 25%;
+    top: 29%;
     left: 15%;
   }
 
@@ -89,12 +89,12 @@ input[type="number"]::-webkit-outer-spin-button {
 
   button {
     top: 50%;
-    right: 27%;
+    right: 23%;
   }
 
   input {
     top: 33%;
-    right: 19%;
+    right: 15%;
     font-size: 20px;
   }
 }
@@ -123,13 +123,13 @@ input[type="number"]::-webkit-outer-spin-button {
 
 @media (max-width: 1600px) {
   h1 {
-    top: 28%;
+    top: 37%;
     left: 10%;
     margin: 0%;
   }
 
   h3 {
-    top: 49%;
+    top: 50%;
     left: 10%;
   }
 
@@ -139,7 +139,7 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   input {
-    top: 40%;
+    top: 39%;
     right: 13%;
   }
 }
