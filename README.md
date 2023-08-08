@@ -13,8 +13,8 @@ npm install axios react-scripts
 python manage.py runserver
 ### 4: Run React project:
 npm start
-### 5: Push changes to Heroku
-git subtree push --prefix backend/django heroku master
+### 5: Push changes to Heroku/GitHub
+only need git push
 
 The React application sends an HTTP POST request to the Django application with the inputted phone number as the request data. The Django application, using a REST API, receives the request and uses the data to create a new phone number record in the database.
 

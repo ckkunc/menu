@@ -45,7 +45,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://keen-pie-1db63a.netlify.app/',
+    'https://pocketmenu.netlify.app/',
+    'https://pocketmenu.me/',
 ]
 
 ROOT_URLCONF = 'menu.urls'
