@@ -76,7 +76,7 @@ input[type="number"]::-webkit-outer-spin-button {
   text-align: center;
 }
 
-@media (min-width: 3024px) {
+@media (min-width: 2560px) {
   h1 {
     top: 29%;
     left: 15%;
