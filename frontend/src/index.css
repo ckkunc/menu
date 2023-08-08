@@ -76,6 +76,29 @@ input[type="number"]::-webkit-outer-spin-button {
   text-align: center;
 }
 
+@media (max-width: 3024px) {
+  h1 {
+    top: 25%;
+    left: 15%;
+  }
+
+  h3 {
+    top: 43%;
+    left: 15%;
+  }
+
+  button {
+    top: 50%;
+    right: 27%;
+  }
+
+  input {
+    top: 33%;
+    right: 19%;
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 1920px) {
   h1 {
     top: 27%;
