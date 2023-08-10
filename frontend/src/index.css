@@ -148,19 +148,23 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 828px) {
   h1 {
-    top: 5%;
-    left: 0%;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     line-height: 1;
+    width: 80%;
   }
-
+  
   h3 {
-    top: 30%;
-    left: 0%;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
-    margin: 30px 20px;
+    margin: 30px auto;
+    width: 85%;
   }
 
   .break {
@@ -168,13 +172,15 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   button {
-    top: 80%;
-    right: 27%;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
   input {
-    top: 65%;
-    right: 13%;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 20px;
     height: 5vh;
     width: 30vh;
