@@ -124,13 +124,34 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   * {
-    font-family: 'Open Sans Mobile', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600 !important;
+  }
+  
+  h1 {
+    font-size: 65px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  input {
+    margin: 95px auto auto auto;
+    font-size: 35px;  
+  }
+  input::placeholder {
+    font-size: 35px;
+  }
+
+  button {
+    margin: 25px auto auto auto;
   }
 } 
 
 @font-face {
   font-family: 'ITC Franklin Gothic';
-  src:url('./fonts/itcfranklingothic/ITCFranklinGothicStd-Hvy.otf');
+  src:url('./fonts/itcfranklingothic/ITCFranklinGothicStd-Med.otf');
 }
 
 @font-face {
