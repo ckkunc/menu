@@ -13,7 +13,7 @@ function App() {
           <h3>Lenoir and Chase's menus, sent to your<br class="break-large"></br>phone every day.
           <br class="break-small"></br> Quick, convenient, easy.</h3>
         </div>
-        <div> 
+        <div class="right"> 
           <PhoneForm />
         </div>
     </div>
