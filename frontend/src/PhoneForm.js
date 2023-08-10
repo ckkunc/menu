@@ -19,11 +19,10 @@ function PhoneForm() {
     inputValue = inputValue.replace(/\D/g, '');
     // Truncate the input value to a maximum of 10 characters
     inputValue = inputValue.slice(0, 10);
-    
     // If the input value contains more than 3 characters, format it as a phone number
     if (inputValue.length > 3) {
       // Add the first three characters of the input value to formattedValue, surrounded by parentheses
-      formattedValue += `(${inputValue.slice(0, 3)})`;
+      formattedValue += `(${inputValue.slice(0, 3)}) `;
       // If the input value contains more than 3 characters, add the next three characters to formattedValue
       if (inputValue.length > 3) {
         formattedValue += `${inputValue.slice(3, 6)}`;
@@ -36,7 +35,6 @@ function PhoneForm() {
       // If the input value contains 3 or fewer characters, set formattedValue to the input value
       formattedValue = inputValue;
     }
-    
     // Update the phoneNumber state variable with the formatted phone number
     setPhoneNumber(formattedValue);
   };  
@@ -59,12 +57,12 @@ function PhoneForm() {
   
   // Render the form
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} class="input">
       <input
         type="tel"
         value={phoneNumber}
         onChange={(event) => formatPhoneNumber(event)}
-        placeholder="(123)456-7890"
+        placeholder="(123) 456-7890"
       />
       <button type="submit" disabled={phoneNumber.replace(/\D/g, '').length !== 10}>
         <span>Submit</span>
