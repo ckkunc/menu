@@ -71,7 +71,8 @@ def scrape(dining_hall: str, tab_id: int, write_mode: str) -> None:
                 station_name = station.find("h4", class_="toggle-menu-station-data")
                 station_name = station_name.text.strip()
                 if (station_name != "Condiments and Spreads" and station_name != "Beverages" and station_name != "Salad Bar" and station_name != "Cereal" and station_name != "Soup and Salads"
-                    and station_name != "Burritos & Bowls" and station_name != "Homemade Soups" and station_name != "The Grill" and station_name != "Stress Less Cabinet" and station_name != "Stress Less Freezer" and station_name != "Deli"):
+                    and station_name != "Burritos & Bowls" and station_name != "Homemade Soups" and station_name != "The Grill" and station_name != "Stress Less Cabinet" and station_name != "Stress Less Freezer" and station_name != "Deli"
+                    and station_name != "Bagels, Breads, and Rolls" and station_name != "Pizza" and station_name != "Pasta" and station_name != "Pasta Bar"):
                     f.write(f"\n-{station_name}-\n")
                     menu_items = station.find("ul")
                     for item in menu_items.find_all("li"):
@@ -82,21 +83,6 @@ def scrape(dining_hall: str, tab_id: int, write_mode: str) -> None:
             f.write(f"{dining_hall} is closed today.")
     # Quit the driver when finished
     driver.quit()
-
-
-
-    # Open the .txt file and read the contents
-    #with open("Chase.txt", "r") as f:
-    #  file_contents = f.read()
-
-    # Send test text message containing the file contents
-    #message = client.messages.create(
-    #    to="test_number",
-    #    from_="twilio_number",
-    #    body=file_contents)
-
-    #print(f"Sent message: {message.sid}")
-
 
 if __name__ == "__main__":
     main()
