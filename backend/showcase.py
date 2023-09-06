@@ -11,7 +11,7 @@ from twilio.rest import Client
 def main() -> None:
     # Initialize the Chrome driver and navigate to the initial page
     driver = webdriver.Chrome()
-    driver.get("https://dining.unc.edu/locations/chase/?date=2023-07-03")
+    driver.get("https://dining.unc.edu/locations/chase/")
 
     # Creating a Twilio client with my account sid and auth token
     account_sid = "account_sid"

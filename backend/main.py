@@ -11,11 +11,6 @@ from twilio.rest import Client
 
 def main() -> None:
 
-    # Creating a Twilio client with my account sid and auth token
-    account_sid = "account_sid"
-    auth_token = "auth_token"
-    client = Client(account_sid, auth_token)
-
     # Calls the function on both Lenoir and Chase. The button_mode dictionary has the button_id
     # and the mode to either write or add to a .txt file. So, the data from the breakfast button (id = 0)
     # should be written since it is the beginning of the data. But data from lunch (id = 1) is simply added 

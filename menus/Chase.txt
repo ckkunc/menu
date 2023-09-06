@@ -1,7 +1,7 @@
 
 
 ------------------------------
-Chase Breakfast (7am-10:45am)
+Chase Breakfast  (7am-10:45am)
 ------------------------------
 
 
@@ -9,20 +9,20 @@ Chase Breakfast (7am-10:45am)
 Waffle Bar
 
 -Bakery-
-Vegan Chocolate Soft Serve
-Vegan Vanilla Soft Serve Ice Cream
 Mini Donuts
 Butter Croissant
 Danishes
 Coffee Cakes
 Apple Cinnamon Muffin
+Chocolate Soft Serve Ice Cream
+Vanilla Soft Serve Ice Cream
 
 -The Kitchen Table-
 Oatmeal
 Grits
-Buttermilk Pancakes
-Breakfast Potatoes
-Pork Sausage Patties
+Whole Wheat French Toast
+Fried Tater Tots
+Bacon
 Scrambled Eggs
 Tofu Florentine
 Impossible™ Sausage Patty
@@ -31,10 +31,18 @@ Pancake Syrup
 Biscuits
 
 -The Griddle-
-Egg, Bacon and Cheddar Quesadilla
-Turkey Bacon
+Turkey Sausage Patty
 Hash Brown Potato Patty
-Plantains, Black Beans, and Rice
+Egg
+Egg Whites
+Bacon Bits
+Diced Turkey
+Diced Ham
+Shredded Mozzarella
+Sliced Vermont Cheddar Cheese
+Baby Spinach
+Tomatoes
+Vegetable Fried Brown Rice
 
 -Plant Forward-
 Frozen Strawberries
@@ -58,68 +66,68 @@ Chase Lunch (11am-2pm)
 Waffle Bar
 
 -Bakery-
-Vegan Chocolate Soft Serve
-Vegan Vanilla Soft Serve Ice Cream
-Lemon Cream Cake
-Chocolate Cake
-Fudge Brownie
+Pecan Blondie
+German Chocolate Pecan Cake
+Strawberry Shortcake
+Coconut Cake
+Chocolate Soft Serve Ice Cream
+Vanilla Soft Serve Ice Cream
 Cookies
+Fudge Brownie
 Rice Krispie Treats
 
 -Simply Prepared Grill-
-BBQ Grilled Chicken
-Potato Hash
-Warm Mango Slaw
-Steamed Whole Green Beans
+Tex Mex Grilled Pork Chop
+Papas con Ejotes
+White Rice
+Seasoned Black Beans
 
 -The Kitchen Table-
-Roasted Al Pastor Pork
-Simply Roasted Green Chili Corn
-Mashed Sweet Potatoes
-Steamed Baby Carrots
+Fried Chicken
+Seasoned Lima Beans
+Honey Glazed Baby Carrots
+Chef Mashed Potatoes
+Chicken Gravy
 
 -The Griddle-
 Local Grass-fed Burger Patties
-Crinkle Cut Fries
+Vegan American Sliced Cheese
+Malibu Gardenburger
 Veggie Toppings
 Grilled Cheese on Sourdough
-Malibu Gardenburger
-Vegan American Sliced Cheese
-Sliced Yellow American Cheese
-Hamburger Bun
 Udi's® Gluten-Free Hamburger Bun
+Hamburger Bun
+Sliced Yellow American Cheese
 
 -Vegan Plant Forward-
-Middle Eastern Style Falafel
-Moroccan Style Vegetable Stew
-Steamed Broccoli
+Spicy Asian Style Burrito
 
 -Plant Forward-
-Blueberries
 Frozen Strawberries
+Peaches
+Vanilla Greek Yogurt
+Blueberries
 Sliced Bananas
 Frozen Pineapple Cubes
 Frozen Mango
-Spinach
-100% Orange Juice
+Baby Spinach
 100% Apple Juice
-Vanilla Greek Yogurt
+100% Orange Juice
 
 -International Flavors-
-General Tso Tempura Chicken
+Shrimp Pad Thai
 Soy Bites
 
 -Create-
-Smoked Salmon Sushi
-Spicy Cucumber Roll
+General Soy Nugget Poke Bowl
+Tofu Poke Bowl
 Soy Sauce
 Sriracha Mayonnaise
 
 -Fresh-
-Classic Mustard Potato Salad
-Cucumber and Onion Salad
-California Pasta Salad
+Red Skin Potato Salad
 Classic Macaroni Salad
+Apricot Couscous Salad
 
 
 ------------------------------
@@ -131,77 +139,74 @@ Chase Dinner (5pm-8pm)
 Waffle Bar
 
 -Bakery-
-Vegan Chocolate Soft Serve
-Vegan Vanilla Soft Serve Ice Cream
-Lemon Cream Cake
-Chocolate Cake
-Fudge Brownie
+Pecan Blondie
+German Chocolate Pecan Cake
+Strawberry Shortcake
+Coconut Cake
+Chocolate Soft Serve Ice Cream
+Vanilla Soft Serve Ice Cream
 Cookies
+Fudge Brownie
 Rice Krispie Treats
 
 -Simply Prepared Grill-
-Mediterranean Style Leg of Lamb
-Steamed Baby Carrots
-White Rice with Mint
+Honey BBQ Chicken
+Steamed Corn
 Steamed Green Peas
+EVOO Mashed Potatoes
 
 -The Kitchen Table-
-Crispy Chicken Breast
-Scrambled Eggs
-Southern Biscuit
-Bacon
-Cheese Grits
+Chicken Tenders
+Roasted Cauliflower
+Steamed Broccoli
+Mac & Cheese
 
 -The Griddle-
-Chicken Parmesan Melt
+Chicken Cheesesteak Sandwich
 Crinkle Cut Fries
+Udi's® Gluten-Free Hamburger Bun
 Veggie Toppings
 Vegan American Sliced Cheese
 Malibu Gardenburger
 Sliced Yellow American Cheese
-Udi's® Gluten-Free Hamburger Bun
 Hamburger Bun
 
 -Vegan Plant Forward-
-Buffalo Cauliflower Taco
-Brown Rice
-Pico Salsa
-Black Olives
-Grilled Scallions
-Guacamole
-Seasoned Green Chili Corn
-Seasoned Black Beans
+Vegan Meat Sauce
+Spaghetti Noodles
+Roasted Zucchini
+Grilled Party Baguette
 
 -Plant Forward-
 Spinach Mandarin Chicken Salad
 
 -International Flavors-
-Stir- Fry Beef
+Salmon Penne with Vegetables
 Soy Bites
 
 -Create-
-Smoked Salmon Sushi
-Spicy Cucumber Roll
+General Soy Nugget Poke Bowl
+Tofu Poke Bowl
 Soy Sauce
 Sriracha Mayonnaise
 
 -Fresh-
-Classic Mustard Potato Salad
-Cucumber and Onion Salad
-California Pasta Salad
+Red Skin Potato Salad
 Classic Macaroni Salad
+Apricot Couscous Salad
 
 -Nacho Bar-
-Chipotle Pulled Pork
+Ground Beef
 Hot Tortilla Chips
-Seasoned Black Beans
-Queso Sauce
-Jalapeno Peppers
-Iceberg Lettuce
-Cheddar Cheese
-Sour Cream
-Pico Salsa
+Cajun Pinto Beans
 Guacamole
+Pico Salsa
+Cheddar Cheese
+Black Olives
+Iceberg Lettuce
+Jalapeno Peppers
+Queso Sauce
+Sour Cream
 
 -Chef's Corner-
 Cilantro Marinated Chicken
